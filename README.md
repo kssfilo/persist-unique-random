@@ -2,14 +2,6 @@
 
 An Unique Random Array Generator with Persist(saving to file) Feature + Command Line Tool
 
-![](https://kanasys.s3-ap-northeast-1.amazonaws.com/safari-ctl-1566223361.jpg)
-
-- [Documentation(npmjs)](https://www.npmjs.com/persist-unique-random)
-- [Bug Report(GitHub)](https://github.com/kssfilo/persist-unique-random)
-- [Home Page](https://kanasys.com/gtech/)
-
-## Example
-
 ```
 PersistUniqueRandom=require('persist-unique-random');
 rng=new PersistUniqueRandom({max:10});
@@ -24,6 +16,11 @@ for(var i=0;i<20;i++) console.log(`rng.next() `);
 
 // * arrays are saved to $HOME/.persist-unique-random/persist-unique-random.json per 'id+min+max' pairs.
 ```
+
+- [Documentation(npmjs)](https://www.npmjs.com/persist-unique-random)
+- [Bug Report(GitHub)](https://github.com/kssfilo/persist-unique-random)
+- [Home Page](https://kanasys.com/gtech/)
+
 
 ## Module Reference
 
