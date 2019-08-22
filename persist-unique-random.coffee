@@ -20,7 +20,7 @@ PersistUniqueRandom=class
 		da=[]
 		sa=[min..max-1]
 		while sa.length
-			da.push sa.splice(Math.floor(random()*sa.length),1)
+			da.push sa.splice(Math.floor(random()*sa.length),1)[0]
 
 		@array=da
 

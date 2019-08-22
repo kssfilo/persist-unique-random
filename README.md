@@ -6,12 +6,12 @@ An Unique Random Array Generator with Persist(saving to file) Feature + Command 
 PersistUniqueRandom=require('persist-unique-random');
 rng=new PersistUniqueRandom({max:10});
 
-for(var i=0;i<20;i++) console.log(`rng.next() `);
-//-> 7 5 6 2 3 8 9 1 4 0 7 5 6 ... (loop)
+for(var i=0;i<20;i++) console.log(rng.next());
+//-> 7 5 6 2 3 8 9 1 4 0 7 5 6 ... (loop 7 5 6..)
 
 rngShuffle=new PersistUniqueRandom({max:10,reshuffle:true});
 
-for(var i=0;i<20;i++) console.log(`rng.next() `);
+for(var i=0;i<20;i++) console.log(rngShuffle.next());
 //-> 7 5 6 2 3 8 9 1 4 0 8 2 1 ... (re-shuffle at loop point)
 
 // * arrays are saved to $HOME/.persist-unique-random/persist-unique-random.json per 'id+min+max' pairs.

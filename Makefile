@@ -3,7 +3,7 @@
 
 NAME=persist-unique-random
 BINNAME=unique-random
-VERSION=0.1.1
+VERSION=0.1.2
 DESCRIPTION=Unique Random Array Generator with Persist(saving to file) Feature + Command Line Tool
 KEYWORDS=unique random array save persist save file command-line command line commandline tool cli 
 NODEVER=8
